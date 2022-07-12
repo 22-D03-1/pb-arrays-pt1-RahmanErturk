@@ -71,3 +71,24 @@ const message = "Hello World";
 const reverseMessage = [...message].reverse().join("");
 
 console.log(reverseMessage);
+
+
+// // Extra Aufgabe
+// // 1
+// const nameActors = ["Johny Deep", "Amber Heard"];
+// const nameOtherActors = ["Brad Pitt", "Angelina Jolie"];
+
+// const allActors = nameActors.concat(nameOtherActors);
+// console.log(allActors);
+
+// allActors.splice(4, 0, "Caribbean Pirates", "Mr. and Mrs. Smith");
+// console.log(allActors);
+
+// allActors.reverse();
+// console.log(allActors);
+
+// const bestActor = allActors.slice(2, 3);
+// console.log({bestActor});
+
+// allActors[0] = "World war Z";
+// console.log(allActors)
